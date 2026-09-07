@@ -1,0 +1,27 @@
+{
+  "status": "LOCKED_FINAL_V2",
+  "source": "Sentinel Pass 30 / Reaper candidate v1",
+  "sentinel": {
+    "model": "Sentinel_FINAL_v2.glb",
+    "base_texture": "Sentinel_FINAL_v2.png",
+    "emissive_texture": "Sentinel_FINAL_v2_emissive.png"
+  },
+  "reaper": {
+    "model": "Reaper_FINAL_v2.glb",
+    "base_texture": "Reaper_FINAL_v2.png",
+    "emissive_texture": "Reaper_FINAL_v2_emissive.png"
+  },
+  "shared_geometry": true,
+  "geometry_identical_verified": true,
+  "uv_identical_verified": true,
+  "world_bounds_identical_verified": true,
+  "texture_resolution": [2048, 2048],
+  "locked_decisions": [
+    "Sentinel and Reaper use exact same geometry and UV layout.",
+    "Reaper differs only by faction texture/material/emissive treatment.",
+    "Sentinel eye slots use the longer horizontal Pass 30 proportion.",
+    "Current banner/frame layout is accepted for continuation; do not restart banner geometry iterations.",
+    "Central upper pillar is retained; rider alignment/view obstruction should be solved later at mod integration by rider offset rather than changing locked geometry."
+  ],
+  "next_stage": "Integrate final model assets into apm23/Happy_Ghast_Overhaul while preserving locked gameplay dimensions, rider alignment policy, and shared Sentinel/Reaper geometry."
+}
