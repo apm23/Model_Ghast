@@ -1,0 +1,26 @@
+{
+  "source_locked_geometry": "sentinel_banner_longer_separate_mesh_v3.glb",
+  "output": "sentinel_uv_atlas_pass04.glb",
+  "pass": 4,
+  "status": "review_candidate",
+  "method": "single 2x2 reference atlas + face-local projected UVs",
+  "geometry_shape_changed": false,
+  "vertex_positions_changed": false,
+  "topology_note": "body vertices duplicated per-face only to permit independent UVs; triangle positions/shapes unchanged",
+  "banner_separate_node": true,
+  "image_generation_used": false,
+  "atlas": "sentinel_reference_atlas_pass04.png",
+  "atlas_size": [2048, 2048],
+  "face_assignment": {
+    "front": 22959,
+    "back": 4613,
+    "left": 4404,
+    "right": 4322
+  },
+  "reason_for_pass": [
+    "Reduce four-material fragmentation from pass03",
+    "Make export more suitable for later mod integration",
+    "Keep each face's projection independent without moving geometry",
+    "Preserve the locked banner as a separate node"
+  ]
+}
