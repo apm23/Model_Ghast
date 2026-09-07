@@ -1,0 +1,20 @@
+{
+  "pass": 7,
+  "source": "sentinel_clean_uv_template_pass05.glb",
+  "output": "sentinel_authored_texture_pass07_emissive.glb",
+  "base_texture": "sentinel_authored_base_pass07.png",
+  "emissive_texture": "sentinel_emissive_pass07.png",
+  "geometry_shape_changed": false,
+  "uv_changed_from_pass05": false,
+  "banner_separate_node": true,
+  "image_generation_used": false,
+  "changes_from_pass06": [
+    "Added real emissive texture instead of relying only on flat base color",
+    "Made cyan strips narrower",
+    "Made purple eyes more compact",
+    "Added compact cyan upper-core accent",
+    "Kept banner dark navy with cyan emissive border",
+    "Still no banner skull emblem until banner UV orientation is explicitly validated"
+  ],
+  "status": "review_candidate"
+}
